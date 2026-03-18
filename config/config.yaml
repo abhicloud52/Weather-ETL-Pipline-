@@ -1,0 +1,27 @@
+openweather:
+  api_key: "6f039850e13c3faae66837701b44675f"
+  base_url: "https://api.openweathermap.org/data/2.5/weather"
+  units: "metric"
+
+cities:
+  - name: "Delhi"
+    country: "IN"
+  - name: "Mumbai"
+    country: "IN"
+  - name: "Bangalore"
+    country: "IN"
+  - name: "Chennai"
+    country: "IN"
+  - name: "Kolkata"
+    country: "IN"
+
+etl:
+  schedule_minutes: 60
+  temp_high_threshold: 30.0
+  humidity_high_threshold: 75
+  rain_alert_mm: 5.0      # mm/h considered heavy rain
+  snow_alert_mm: 2.0      # mm/h considered heavy snow
+
+logging:
+  level: "INFO"
+  file: "logs/app.log"

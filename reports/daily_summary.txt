@@ -1,0 +1,13 @@
+WEATHER DATA PIPELINE SYSTEM
+=============================
+
+Last Run: 2026-03-18 16:19:16.450172
+Records Processed (24h): 5
+
+CITY STATS (last 24h):
+----------------------
+Delhi: avg=25.1°C, min=25.1°C, max=25.1°C, records=1
+Mumbai: avg=27.0°C, min=27.0°C, max=27.0°C, records=1
+Bangalore: avg=21.8°C, min=21.8°C, max=21.8°C, records=1
+Chennai: avg=28.4°C, min=28.4°C, max=28.4°C, records=1
+Kolkata: avg=26.0°C, min=26.0°C, max=26.0°C, records=1
